@@ -1,5 +1,34 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .font-terminal {
+    font-family: 'Space Mono', monospace;
+  }
+  .font-display {
+    font-family: 'Bebas Neue', cursive;
+  }
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .glow-red {
+    text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.5);
+  }
+  .glow-orange {
+    text-shadow: 0 0 10px rgba(249, 115, 22, 0.7), 0 0 20px rgba(249, 115, 22, 0.5);
+  }
+  
+  .bg-grid-slate-900 {
+    background-image: linear-gradient(to right, #0f172a 1px, transparent 1px),
+      linear-gradient(to bottom, #0f172a 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  
+  .glass-panel {
+    @apply bg-slate-900/60 backdrop-blur-md border border-slate-700/50 shadow-2xl;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

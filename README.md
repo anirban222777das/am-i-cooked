@@ -78,6 +78,22 @@ The LLM **only** understands the language and extracts the facts (Urgency, Prepa
 - Sentence Transformers (baseline)
 - Scikit-learn & Logistic Regression (baseline)
 
+## The Clinical Catastrophe Dashboard 💀 (Gallery)
+Here is what it looks like when the telemetry system judges you:
+
+**The Dashboard:**
+![Dashboard](funny/screenshots/dashboard.png)
+
+**When things are mostly fine (Not Cooked):**
+![Not Cooked](funny/screenshots/not%20cooked.png)
+
+**When you are starting to sweat (Cooked):**
+![Cooked](funny/screenshots/cooked.png)
+
+**When you are entirely beyond saving (Charcoal):**
+*(Note: At this level, the screen physically shakes)*
+![Charcoal](funny/screenshots/charcoal.png)
+
 ## Local Model Setup
 Because the Qwen3 4B model is ~7.5GB, the heavy model weights are intentionally excluded from Git. The directory `models/qwen3-4b/` exists, but you must download the model yourself before running the app. If you delete the project directory, you will delete your local copy of the model.
 
