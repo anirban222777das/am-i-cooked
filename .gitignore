@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+build/
+
+# Models
+# DO NOT track the heavy model weights, but KEEP the directory structure
+models/qwen3-4b/*
+!models/qwen3-4b/.gitkeep
